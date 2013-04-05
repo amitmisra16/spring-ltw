@@ -1,0 +1,8 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+  <weaver options="-verbose -showWeaveInfo" />
+
+  <aspects>
+    <aspect name="com.ishisystems.aspectj.ltw.aspect.LoggingAspect"/>
+  </aspects>
+</aspectj>
